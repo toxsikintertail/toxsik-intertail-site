@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+}
+
+header, nav, footer {
+  background-color: #1a1a1a;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #f1f1f1;
+  margin: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.content {
+  padding: 2em;
+}
+
+.ads {
+  background: #333;
+  padding: 1em;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.rickroll-button {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rickroll-button:hover {
+  background-color: #ff6b81;
+}
+
+@media screen and (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+  .content, .ads {
+    padding: 1em;
+  }
+}
